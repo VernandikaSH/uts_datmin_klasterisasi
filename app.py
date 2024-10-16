@@ -37,10 +37,6 @@ def load_pca():
         return None
 
 # Function to preprocess an uploaded image
-import cv2
-import numpy as np
-
-# Function to preprocess an uploaded image
 def preprocess_image(pil_image):
     # Convert PIL image to a NumPy array
     image = np.array(pil_image)
